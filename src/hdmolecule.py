@@ -96,7 +96,14 @@ class HDMolecule:
 
 
 def analyze_N2(distance):
+    """showes the ditance between two nightrogen atoms. 
 
+    Takes in a distance.
+
+    Returns:
+        some printed text.
+
+    """
     N2 = HDMolecule("N", distance)
 
     print("Nitrogen atom energy: %5.2f eV" % N2.atom_energy())
